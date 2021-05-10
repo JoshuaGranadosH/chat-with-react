@@ -2,7 +2,7 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 
-const { REACT_APP_APIKEY, REACT_APP_AUTHDOMAIN, REACT_APP_PROJECTID, REACT_APP_STORAGEBUCKET, REACT_APP_MESSAGINSENDERID, REACT_APP_APPID } = process.env;
+// const { REACT_APP_APIKEY } = process.env;
 
 firebase.initializeApp({
   apiKey: process.env.REACT_APP_APIKEY,
